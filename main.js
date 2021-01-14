@@ -86,10 +86,6 @@ class Scene {
         return status;
     }
 
-    isFinish() {
-        return this.cellUsed === 6;
-    }
-
     changeTurn() {
         this.isTurn = this.isTurn.who() === 'white' ? this.black : this.white;
     }
